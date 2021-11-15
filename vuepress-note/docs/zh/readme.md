@@ -34,5 +34,6 @@ project:
 footer: <a href="https://beian.miit.gov.cn/">京ICP备2021015740号-2</a>
 ---
 
+::: center
 欢迎来到我的博客！
-welcom to my blog.
+:::
