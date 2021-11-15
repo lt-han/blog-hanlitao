@@ -35,12 +35,12 @@ jobs:
       - name: npm install
         run: |
           cd ./vuepress-note
+          rm -rf ./node_modules
           npm install
       # 打包
       - name: npm build
         run: |
           cd ./vuepress-note
-          rm -rf ./node_modules
           npm run docs:build
 
       # 部署到阿里云
