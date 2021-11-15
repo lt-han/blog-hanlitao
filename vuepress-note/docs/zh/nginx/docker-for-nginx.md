@@ -36,7 +36,7 @@ docker pull nginx
 这里将 ==/data/web== 挂载到容器中的 ==/usr/share/nginx/html== 
 
 ```shell
-docker run -d --name my-nginx -p 80:80 -p 433:433 -v /data/web:/usr/share/nginx/html nginx
+docker run -d --name my-nginx -p 80:80 -p 443:443 -v /data/web:/usr/share/nginx/html nginx
 ```
 ::: tip 参数说明
 > --name  容器实例的名称
@@ -55,9 +55,9 @@ docker cp my-nginx:/etc/nginx /usr/local
 ### 4. 停止并删除容器
 
 ```shell
-docker stop nginx
+docker stop my-nginx
 
-docker rm nginx
+docker rm my-nginx
 ```
 
 ::: danger 注意
@@ -68,7 +68,7 @@ docker rm nginx
 
 将 ==/usr/local/nginx== 挂在到容器中的 ==/etc/nginx==
 ```shell
-docker run -d --name my-nginx -p 80:80 -p 433:433 -v /usr/local/nginx:/etc/nginx -v /data/web:/usr/share/nginx/html nginx
+docker run -d --name my-nginx -p 80:80 -p 443:443 -v /usr/local/nginx:/etc/nginx -v /data/web:/usr/share/nginx/html nginx
 ```
 
 ### 6.编辑配置文件
@@ -99,29 +99,6 @@ server {
     ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;
     ssl_prefer_server_ciphers   on;
 
-    location / {
-        root   /usr/share/nginx/html/homepage;
-        index  index.html index.htm;
-    }
-}
-```
-
-阿里云SSL配置：
-```
-server {
-    listen 443 ssl http2;
-    server_name www.hanlitao.com;
-
-    ssl                      on;
-    ssl_certificate          /usr/share/nginx/html/ssl/hanlitao.com/hanlitao.com.pem;
-    ssl_certificate_key      /usr/share/nginx/html/ssl/hanlitao.com/hanlitao.com.key;
-
-    ssl_session_timeout  5m;
-
-    ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
-    ssl_protocols SSLv3 TLSv1 TLSv1.1 TLSv1.2;
-    ssl_prefer_server_ciphers   on;
- 
     location / {
         root   /usr/share/nginx/html/homepage;
         index  index.html index.htm;
