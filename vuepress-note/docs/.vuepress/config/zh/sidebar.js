@@ -19,5 +19,15 @@ module.exports = {
         'book-crawler',
       ]
     },
+  ],
+  '/zh/hive/': [
+    '',
+    {
+      title: 'hive查询',
+      collapsable: true,
+      children: [
+        'list-map-sql-hive',
+      ]
+    },
   ]
 }

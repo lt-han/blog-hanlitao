@@ -10,5 +10,9 @@ module.exports = [
   {
     text: 'crawler',
     link: '/crawler/'
+  },
+  {
+    text: 'hive',
+    link: '/hive/'
   }
 ]

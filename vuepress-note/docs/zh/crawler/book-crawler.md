@@ -1,6 +1,10 @@
 ---
 title: python 爬虫入门进阶书籍
 editLink: false
+category: crawler
+tag:
+  - 爬虫
+  - 书籍
 ---
 
 ### 1. Python 3 网络爬虫开发实战

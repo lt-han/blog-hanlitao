@@ -18,7 +18,18 @@ project:
     name: crawler
     desc: Crawler Knowledge Sharing
     link: /crawler
-    
+  
+  - type: Hive
+    name: Hive
+    desc: Hive SQL
+    link: /hive
+
+  - type: Website
+    name: Website
+    desc: Website Collection
+    link: /website
+
+
 footer: <a href="https://beian.miit.gov.cn/">京ICP备2021015740号-2</a>
 ---
 Welcome to my blog page.

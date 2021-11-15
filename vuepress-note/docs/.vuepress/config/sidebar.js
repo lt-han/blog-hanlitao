@@ -19,5 +19,15 @@ module.exports = {
         'image-baidu-crawler',
       ]
     }
+  ],
+  '/hive/': [
+    '',
+    {
+      title: 'hive sql',
+      collapsable: true,
+      children: [
+        'list-map-sql-hive',
+      ]
+    },
   ]
 }

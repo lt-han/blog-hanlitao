@@ -14,12 +14,22 @@ project:
   - type: nginx
     name: nginx
     desc: nginx 配置指南
-    link: /nginx
+    link: /zh/nginx
 
   - type: crawler
     name: crawler
     desc: 爬虫知识分享
-    link: /crawler
+    link: /zh/crawler
+  
+  - type: Hive
+    name: Hive
+    desc: Hive SQL
+    link: /zh/hive
+
+  - type: Website
+    name: Website
+    desc: 网址收藏
+    link: /zh/website
 
 footer: <a href="https://beian.miit.gov.cn/">京ICP备2021015740号-2</a>
 ---

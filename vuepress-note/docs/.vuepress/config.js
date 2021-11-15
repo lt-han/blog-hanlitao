@@ -72,10 +72,10 @@ module.exports = config({
     },
 
     comment: {
-      type: "waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      type: "valine",
+      "appId": 'nXtj7JbB39qEoANtNOOvKtsW-gzGzoHsz',// your appId
+      "appKey": 'xnoHidpgqWxWHPkaOf0FHdvL', // your appKey
     },
-
     copyright: {
       status: "global",
     },
