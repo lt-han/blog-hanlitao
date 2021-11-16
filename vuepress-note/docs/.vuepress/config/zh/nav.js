@@ -14,5 +14,9 @@ module.exports = [
   {
     text: 'hive',
     link: '/zh/hive/'
+  },
+  {
+    text: 'vuepress',
+    link: '/zh/vuepress/'
   }
 ]

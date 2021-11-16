@@ -29,5 +29,15 @@ module.exports = {
         'list-map-sql-hive',
       ]
     },
+  ],
+  '/zh/vuepress/': [
+    '',
+    {
+      title: 'vuepress建站',
+      collapsable: true,
+      children: [
+        'deploy-vuepress-from-github-to-ecs',
+      ]
+    },
   ]
 }
