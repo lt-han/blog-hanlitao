@@ -25,7 +25,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # 安装Node13
+      # 安装Node.js 根据你本地的版本号来安装，否则可能出现build异常
       - name: use Node.js 12.13.1
         # 使用action库  actions/setup-node安装node
         uses: actions/setup-node@v1
@@ -43,20 +43,19 @@ jobs:
         run: |
           cd ./vuepress-note
           npm run docs:build
-
-      # 部署到阿里云
-      - name: Deploy to Aliyun
+      # 部署到阿里云ECS
+      - name: Deploy to Aliyun ECS
         uses: easingthemes/ssh-deploy@v2.1.1
         env:
           # 私钥
           SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           # scp参数
           ARGS: "-avzr --delete"
-          # 源目录，编译后生成的文件目录
+          # 源目录，build生成的dist目录
           SOURCE: "./vuepress-note/dist"
           # 服务器ip：换成你的服务器IP
           REMOTE_HOST: "123.57.38.114"
-          # 用户
+          # 用户名
           REMOTE_USER: "root"
-          # 目标地址 你在服务器上部署代码的地方
+          # 目标地址 服务器部署路径，最终会在这个路径下添加dist目录
           TARGET: "/data/web/homepage"
