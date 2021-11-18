@@ -27,6 +27,7 @@ module.exports = {
       collapsable: true,
       children: [
         'list-map-sql-hive',
+        'url-parse-sql-hive',
       ]
     },
   ],
