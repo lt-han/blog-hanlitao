@@ -18,5 +18,9 @@ module.exports = [
   {
     text: 'vuepress',
     link: '/zh/vuepress/'
+  },
+  {
+    text: '法律小工具',
+    link: 'http://lawyer.hanlitao.com'
   }
 ]
