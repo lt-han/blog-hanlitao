@@ -22,5 +22,9 @@ module.exports = [
   {
     text: 'vue',
     link: '/zh/vue/'
+  },
+  {
+    text: '法律小工具',
+    link: 'http://lawyer.hanlitao.com'
   }
 ]
