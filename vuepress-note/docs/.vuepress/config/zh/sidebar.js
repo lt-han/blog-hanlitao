@@ -40,5 +40,15 @@ module.exports = {
         'deploy-vuepress-from-github-to-ecs',
       ]
     },
+  ],
+  '/zh/vue/': [
+    '',
+    {
+      title: 'vue建站',
+      collapsable: true,
+      children: [
+        'vue-ba-baidutongji',
+      ]
+    },
   ]
 }

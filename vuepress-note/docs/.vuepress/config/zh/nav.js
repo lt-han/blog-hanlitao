@@ -18,5 +18,9 @@ module.exports = [
   {
     text: 'vuepress',
     link: '/zh/vuepress/'
+  },
+  {
+    text: 'vue',
+    link: '/zh/vue/'
   }
 ]
