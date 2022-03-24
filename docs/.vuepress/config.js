@@ -8,7 +8,7 @@ module.exports = {
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: '/images/logo.png',
-    nav: require('./config/navbar.js'),
+    navbar: require('./config/navbar.js'),
     sidebar: require('./config/sidebar.js')
   },
   head: [
@@ -38,13 +38,5 @@ module.exports = {
             // 衡量ID
             gtag('config', 'G-9F64JQSDVD');
     `]
-  ],
-  plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        'ga': 'G-9F64JQSDVD' // UA-00000000-0
-      }
-    ]
   ]
 }
