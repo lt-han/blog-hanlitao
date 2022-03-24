@@ -1,0 +1,12 @@
+{
+  "name": "vuepress-note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lt-han/blog-hanlitao.git",
+  "author": "769388611@qq.com",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
