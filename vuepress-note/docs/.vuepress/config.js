@@ -9,7 +9,7 @@ module.exports = config({
   dest: "./dist",
 
   head: [
-    ['meta', { name: 'keywords', content: 'crawler hive nginx vuepress'}],
+    ['meta', { name: 'keywords', content: '技术指标'}],
     // 百度站长的验证, 不能删除
     ["meta", { name: "baidu-site-verification", content: "code-EkHD6Z9cKD" }],
     [
