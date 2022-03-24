@@ -69,21 +69,12 @@ module.exports = config({
 
     sidebar: require("./config/sidebar.js"),
 
-    // locales: {
-    //   "/zh/": {
-    //     nav: require("./config/zh/nav.js"),
-
-    //     sidebar: require("./config/zh/sidebar.js"),
-    //   },
-    // },
-
     blog: {
       name: "LT.Han",
       avatar: "/logo.png",
       intro: "/intro/",
       sidebarDisplay: "mobile",
       links: {
-        Zhihu: "https://www.zhihu.com/people/lthan",
         Github: "https://github.com/lt-han",
       },
     },
