@@ -54,12 +54,8 @@ module.exports = config({
 
   locales: {
     "/": {
-      lang: "en-US", // zh-CN
-    },
-    "/zh/": {
-      title: "Han Li Tao",
-      description: "我的笔记，为了效率而生 ！",
-    },
+      lang: "zh-CN"
+    }
   },
 
   themeConfig: {
@@ -73,13 +69,13 @@ module.exports = config({
 
     sidebar: require("./config/sidebar.js"),
 
-    locales: {
-      "/zh/": {
-        nav: require("./config/zh/nav.js"),
+    // locales: {
+    //   "/zh/": {
+    //     nav: require("./config/zh/nav.js"),
 
-        sidebar: require("./config/zh/sidebar.js"),
-      },
-    },
+    //     sidebar: require("./config/zh/sidebar.js"),
+    //   },
+    // },
 
     blog: {
       name: "LT.Han",

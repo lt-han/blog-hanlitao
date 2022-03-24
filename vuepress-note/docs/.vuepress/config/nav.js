@@ -1,18 +1,10 @@
 module.exports = [
   {
-    text: 'home',
+    text: '首页',
     link: '/'
   },
   {
-    text: 'nginx',
-    link: '/nginx/'
-  },
-  {
-    text: 'crawler',
-    link: '/crawler/'
-  },
-  {
-    text: 'hive',
-    link: '/hive/'
+    text: '技术指标',
+    link: '/tb/'
   }
 ]
