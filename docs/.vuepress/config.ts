@@ -19,8 +19,8 @@ export default defineHopeConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "主题演示",
-      description: "vuepress-theme-hope 的演示",
+      title: "程序猿教你炒股",
+      description: "从此告别盲目买卖",
     },
   },
 
