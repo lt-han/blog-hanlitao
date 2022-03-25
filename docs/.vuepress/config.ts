@@ -20,7 +20,7 @@ export default defineHopeConfig({
     "/": {
       lang: "zh-CN",
       title: "程序猿教你炒股",
-      description: "从此告别盲目买卖",
+      description: "从此不再盲目买卖",
     },
   },
 
