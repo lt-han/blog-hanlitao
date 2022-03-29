@@ -12,21 +12,21 @@ module.exports = config({
     ['meta', { name: 'keywords', content: 'crawler hive nginx vuepress'}],
     // 百度站长的验证, 不能删除
     ["meta", { name: "baidu-site-verification", content: "code-EkHD6Z9cKD" }],
-    [
-      "script",
-      { src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" },
-    ],
-    [
-      "script",
-      {
-        src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",
-      },
-    ],
-    ["script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
-    [
-      "script",
-      { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
-    ],
+    // [
+    //   "script",
+    //   { src: "https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" },
+    // ],
+    // [
+    //   "script",
+    //   {
+    //     src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",
+    //   },
+    // ],
+    // ["script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
+    // [
+    //   "script",
+    //   { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
+    // ],
     ['script', {}, `
             var _hmt = _hmt || [];
             (function() {
