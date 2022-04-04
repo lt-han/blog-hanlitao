@@ -2,6 +2,7 @@ import { defineSidebarConfig } from "vuepress-theme-hope";
 
 export default defineSidebarConfig({
 
+  // 教你炒股
   "/stock/basic-knowledge/": [
     {
       text: "基础知识",
@@ -10,16 +11,39 @@ export default defineSidebarConfig({
       children: ["k-line"],
     }
   ],
-  '/note/nginx/': [
+
+  // 学习笔记
+  '/note/front-end/': [
     {
-      text: "nginx 笔记",
+      text: '前端技术',
       collapsable: true,
-      children: ["docker-for-nginx"],
-    }
+      children: [
+        'deploy-vuepress-from-github-to-ecs',
+        'vue-ba-baidutongji',
+      ]
+    },
+  ],
+  '/note/back-end/': [
+    {
+      text: '后端技术',
+      collapsable: true,
+      children: [
+
+      ]
+    },
+  ],
+  '/note/algorithm/': [
+    {
+      text: '算法技术',
+      collapsable: true,
+      children: [
+        "embedding",
+      ]
+    },
   ],
   '/note/crawler/': [
     {
-      text: '爬虫笔记',
+      text: '爬虫技术',
       collapsable: true,
       children: [
         'image-baidu-crawler',
@@ -27,9 +51,9 @@ export default defineSidebarConfig({
       ]
     },
   ],
-  '/note/hive/': [
+  '/note/data/': [
     {
-      text: 'hive查询',
+      text: '数据查询',
       collapsable: true,
       children: [
         'list-map-sql-hive',
@@ -37,22 +61,11 @@ export default defineSidebarConfig({
       ]
     },
   ],
-  '/note/vuepress/': [
+  '/note/tool/': [
     {
-      text: 'vuepress建站',
+      text: "常用工具",
       collapsable: true,
-      children: [
-        'deploy-vuepress-from-github-to-ecs',
-      ]
-    },
+      children: ["docker-for-nginx"],
+    }
   ],
-  '/note/vue/': [
-    {
-      text: 'vue建站',
-      collapsable: true,
-      children: [
-        'vue-ba-baidutongji',
-      ]
-    },
-  ]
 });

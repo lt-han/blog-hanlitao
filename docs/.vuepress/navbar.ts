@@ -8,24 +8,34 @@ export default defineNavbarConfig([
     prefix: "/note",
     children: [
       {
-        text: "nginx",
-        link: "/nginx/"
+        text: "前端技术",
+        icon: "diagram",
+        link: "/front-end/"
+      },
+      // {
+      //   text: "后端技术",
+      //   icon: "customize",
+      //   link: "/back-end/"
+      // },
+      {
+        text: "数据查询",
+        icon: "mysql",
+        link: "/data/"
       },
       {
-        text: "爬虫",
+        text: "爬虫技术",
+        icon: "debug",
         link: "/crawler/"
       },
+      // {
+      //   text: "算法技术",
+      //   icon: "creative",
+      //   link: "/algorithm/"
+      // },
       {
-        text: "Hive",
-        link: "/hive/"
-      },
-      {
-        text: "vuepress",
-        link: "/vuepress/"
-      },
-      {
-        text: "vue",
-        link: "/vue/"
+        text: "常用工具",
+        icon: "tool",
+        link: "/tool/"
       },
     ]
   },

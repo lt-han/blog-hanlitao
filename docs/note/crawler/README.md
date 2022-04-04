@@ -1,6 +1,9 @@
 ---
-title: 爬虫
+title: 爬虫技术
 editLink: false
+category: 爬虫技术
+tag:
+  - 爬虫技术
 ---
 
 
