@@ -21,7 +21,7 @@ ssh-keygen -t rsa -C "123456789@xxx.com"
 github --> 当前项目 --> settings --> Secrets --> New repository secret --> 将 ==id_rsa== 中的内容作为 ==PRIVATE_KEY== 的值
 
 ::: center
-![](/assets/github-actions-secrets-private-key.png)
+![](/images/github-actions-secrets-private-key.png)
 :::
 
 ### 3. 在服务器配置公钥
@@ -101,4 +101,4 @@ jobs:
           TARGET: "/data/web/homepage"
 ```
 
-[nginx配置参考](/zh/nginx/docker-for-nginx)
+[nginx配置参考](/note/nginx/docker-for-nginx)

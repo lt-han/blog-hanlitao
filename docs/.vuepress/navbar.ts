@@ -31,7 +31,7 @@ export default defineNavbarConfig([
   },
   {
     text: "教你炒股",
-    icon: "note",
+    icon: "launch",
     prefix: "/stock",
     children: [
       {

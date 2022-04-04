@@ -11,7 +11,7 @@ tag:
 
 
 ::: center
-![](/assets/book-crawler-1.png)
+![](/images/book-crawler-1.png)
 
 [天猫购买](https://s.click.taobao.com/t?e=m%3D2%26s%3DlCRiDFPQ3p8cQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67nGTJrG%2BXrls%2Fl0%2B1yuzCtIakK66q8hdL0%2FxF6QYK8kzsUcM7zUTiS1pVv369wWnOXr%2FqQz2p08pbNt%2BQ9Mb0tem2vAytx9kdN%2BmReMps0NbtFgRdcNqvxaoFMvEmzWFTy995RSXr%2Fuk&amp;scm=null&amp;pvid=null&amp;app_pvid=59590_33.39.130.252_680_1632816953118&amp;ptl=floorId%3A17741&amp;originalFloorId%3A17741&amp;app_pvid%3A59590_33.39.130.252_680_1632816953118&amp;union_lens=lensId%3APUB%401632816940%400b5c327f_94c8_17c2b7945cf_1b56%40023RmtHbwfPQLQ4WgM3OCWIY)
 [京东购买](https://union-click.jd.com/jdc?e=&p=JF8BANAJK1olXg8HV1taDkoSAF8IGFkXXwIHVW4ZVxNJXF9RXh5UHw0cSgYYXBcIWDoXSQVJQwYBVlxfDE4WHDZNRwYlNHVGUQxYakh1cRl0a1lFCH11KAcuXkcbM244GFoVXQADXFxVCXsnA2g4STXN67Da8e9B3OGY1uefK1olXQEAU1lcC04UAGYAGWsSXQ8yDwYCXhdHXSZQSwVMDVkyZG5eOHsnA18LKxl7WAAHAwtVDUlFAzsOHlMVWQ4LBg5UDhwVB2kIHlkTCAAyVl9cDEIn)
@@ -25,7 +25,7 @@ tag:
 ### 2. Python 3 反爬虫原理与绕过实战
 
 ::: center
-![](/assets/book-crawler-2.png)
+![](/images/book-crawler-2.png)
 
 [天猫购买](https://s.click.taobao.com/t?e=m%3D2%26s%3DfBv0FF1YDNMcQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67msvVQkySL%2BvTHm2guh0YLsakK66q8hdL0%2FxF6QYK8kzsUcM7zUTiS1pVv369wWnOXr%2FqQz2p08pbNt%2BQ9Mb0tem2vAytx9kdOBn3zJcA7pFmUPeG42RHHd7ABjSP9X11O5BQJxzxkg1xiXvDf8DaRs%3D&amp;scm=null&amp;pvid=null&amp;app_pvid=59590_33.7.90.54_665_1632815884780&amp;ptl=floorId%3A17741&amp;originalFloorId%3A17741&amp;app_pvid%3A59590_33.7.90.54_665_1632815884780&amp;union_lens=lensId%3APUB%401632815830%402108095a_0798_17c2b685698_4ad9%4002Abswb1YF2CYLVmwAUepvC)
 [京东购买](https://union-click.jd.com/jdc?e=&amp;p=JF8BAM4JK1olVQYBUlxZCk0VM2gMGV8XXw4GVl1cOA9IWzFXKwJQGEdAX0BDUA5DX3BTTkRHA1ocU1pfDEkVC2sKGFoKBENeCW4aCDdrWjgWazt2J3F1KS0NAQB1Yg1eF1clXDYBVV5dDkofAWcJK2sVWjZDOl1dAUwXBF8JK1sSXwULVFlcCUMRAGg4HFscbV1aCwgBWBVeWz9WQgtKbTYyV25tOEsnAF9KdQkVClIFXVZeD0gfB2oAEglFVVQFUgtYCU0XUGkBE10QbQQDVVpUOA)
@@ -36,7 +36,7 @@ tag:
 ### 3. Python 网络爬虫权威指南
 
 ::: center
-![](/assets/book-crawler-3.png)
+![](/images/book-crawler-3.png)
 
 [天猫购买](https://s.click.taobao.com/t?e=m%3D2%26s%3Dq23DXP3GdbAcQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67oOGdLfKNdOEWI6w0dMGH8gakK66q8hdL0%2FxF6QYK8kzsUcM7zUTiS1pVv369wWnOXr%2FqQz2p08pbNt%2BQ9Mb0tem2vAytx9kdN%2BmReMps0NbCkY2Y1GSDfMKxVOLlpmZkAyW7mQwqx7e&amp;scm=null&amp;pvid=null&amp;app_pvid=59590_11.93.193.40_666_1632817489848&amp;ptl=floorId%3A17741&amp;originalFloorId%3A17741&amp;app_pvid%3A59590_11.93.193.40_666_1632817489848&amp;union_lens=lensId%3APUB%401632817406%40212c3e9e_0889_17c2b8061cf_2ba6%40021fKuXTmIKBqTx2TQqgmMMp)
 [京东购买](https://union-click.jd.com/jdc?e=&amp;p=JF8BAMQJK1olXDYCV1pUDE8WCl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksUB2YMH1ocQl9HCANtWE9EfzRtYQt2X15ANj5UV0l_XGt9a1cZbQcyV19dCE0WC20AGmslXQEyAjBdCUoWAm4NH1wSbQcyVFlfC0IXBWsLGV8UWjYFVFdtUxNIVTNYRRJNDVhbBAFtOHsUM184G2sWbURsVV5UDEoeVGgPEl5FWAdRAQ5cDhkQC2cJHg8RXAYEUl1tCkoWB2Y4)
@@ -48,7 +48,7 @@ tag:
 
 
 ::: center
-![](/assets/book-crawler-4.png)
+![](/images/book-crawler-4.png)
 
 [天猫购买](https://s.click.taobao.com/t?e=m%3D2%26s%3DNQhL2Y3YtvwcQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67n2hBtb19nrlxqmPbz6xcicakK66q8hdL0%2FxF6QYK8kzsUcM7zUTiS1pVv369wWnOXr%2FqQz2p08pbNt%2BQ9Mb0tem2vAytx9kdNBJsHcT1IJHWzbAgAqQ7p8mVRDVMyUfM8YMXU3NNCg%2F&scm=null&pvid=null&app_pvid=59590_33.5.179.79_692_1636603858565&ptl=floorId%3A17741&originalFloorId%3A17741&app_pvid%3A59590_33.5.179.79_692_1636603858565&union_lens=lensId%3APUB%401636603844%40212c6e2a_0818_17d0d30d7a3_3189%40026RQ9iypuADOj1NY6vq3TqB)
 [京东购买](https://union-click.jd.com/jdc?e=&p=JF8BANAJK1olXg8HV1taDkoSAF8IGFgdXgUBVm4ZVxNJXF9RXh5UHw0cSgYYXBcIWDoXSQVJQwYBV1ZeC0gVHDZNRwYlPHhRV1Y0Yx53GRVaSRJgPnBeDQsEaEcbM244GFoVXQADXFxVCXsnA2g4STXN67Da8e9B3OGY1uefK1olXQEAU1lcCk0SBm8OG2sSXQ8yDwYCXhdHXSZQSwVMDVkyZG5eOHsnA18LKxl7CQcDUV1VDUoeCjpYHlwQDVYGA1tUC0tEBm9cT14SWAQyVl9cDEIn)

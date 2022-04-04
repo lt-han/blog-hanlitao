@@ -15,14 +15,14 @@ tag:
 <a href="https://tongji.baidu.com/">百度统计官网地址：https://tongji.baidu.com/</a>
 
 ::: center
-![](/assets/baidutongji-1.png)
+![](/images/baidutongji-1.png)
 :::
 
 ### 2. 获取js代码中的siteId
 
 获取网址参数，图中打码部分的siteId: ==614cebXXXXXXXXXXXXXXXXX368f831f8== 。
 ::: center
-![](/assets/baidutongji-2.png)
+![](/images/baidutongji-2.png)
 :::
 
 ### 3. 安装vue-ba
