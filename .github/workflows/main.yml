@@ -34,14 +34,14 @@ jobs:
       # 安装依赖
       - name: npm install
         run: |
-          cd ./docs
+          # cd ./docs
           # 异常时尝试删除node_modules文件夹
           rm -rf ./node_modules
           npm install
       # 打包
       - name: npm build
         run: |
-          cd ./docs
+          # cd ./docs
           npm run docs:build
       # 部署到阿里云ECS
       - name: Deploy to Aliyun ECS
