@@ -19,8 +19,8 @@ export default defineHopeConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "程序猿教你炒股",
-      description: "从此不再盲目买卖",
+      title: "Han Li Tao",
+      description: "我的笔记，为效率而生 ！",
     },
   },
 
