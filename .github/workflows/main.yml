@@ -36,7 +36,7 @@ jobs:
         run: |
           # cd ./docs
           # 异常时尝试删除node_modules文件夹
-          rm -rf ./node_modules
+          # rm -rf ./node_modules
           npm install
       # 打包
       - name: npm build
