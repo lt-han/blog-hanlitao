@@ -1,6 +1,4 @@
-
-*/node_modules
-*/dist
 node_modules
-.cache
 .temp
+.cache
+dist
