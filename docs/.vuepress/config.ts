@@ -24,6 +24,7 @@ export default defineHopeConfig({
       hm.src = "https://hm.baidu.com/hm.js?76592c45133291700273e2e5ea3f89b3";
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
+    })();
     `]
 
   ],
