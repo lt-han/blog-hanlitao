@@ -42,8 +42,9 @@ K线除了划分为阳线和阴线以外，还有更细致的形态划分，而�
 K线的组合比单根K线表达更丰富，下面介绍70种K线的组合，一起来看一下精彩的K线组合吧。
 :::
 
-***
-#### 1. 早晨十字星（希望十字星）
+## K线组合
+
+### 1. 早晨十字星（希望十字星）
 <div align="center">
   <img src="/images/k-line-combination-1.png" height="100" wight="100">
 </div>
@@ -57,7 +58,7 @@ K线的组合比单根K线表达更丰富，下面介绍70种K线的组合，一
 见底信号，后市看涨
 
 ***
-#### 2. 早晨之星（希望之星）
+### 2. 早晨之星（希望之星）
 <div align="center">
   <img src="/images/k-line-combination-2.png" height="100" wight="100">
 </div>
@@ -70,7 +71,7 @@ K线的组合比单根K线表达更丰富，下面介绍70种K线的组合，一
 见底信号，后市看涨（信号不如早晨十字星强）
 
 ***
-#### 3. 好友反攻
+### 3. 好友反攻
 <div align="center">
   <img src="/images/k-line-combination-3.png" height="100" wight="100">
 </div>
@@ -86,7 +87,7 @@ K线的组合比单根K线表达更丰富，下面介绍70种K线的组合，一
 见底信号，后市看涨（转势信号不如曙光初现强）
 
 ***
-#### 4. 曙光初现
+### 4. 曙光初现
 <div align="center">
   <img src="/images/k-line-combination-4.png" height="100" wight="100">
 </div>
@@ -102,7 +103,7 @@ K线的组合比单根K线表达更丰富，下面介绍70种K线的组合，一
 见底信号，后市看涨（阳线实体深入阴线实体的部分越多，转势信号越强）
 
 ***
-#### 5. 旭日东升
+### 5. 旭日东升
 <div align="center">
   <img src="/images/k-line-combination-5.png" height="100" wight="100">
 </div>
@@ -117,7 +118,7 @@ K线的组合比单根K线表达更丰富，下面介绍70种K线的组合，一
 见底信号，后市看涨（见底信号，强于曙光初现；阳线实体高出阴线实体部分越多，转势信号越强）
 
 ***
-#### 6. 倒锤头线
+### 6. 倒锤头线
 <div align="center">
   <img src="/images/k-line-combination-6.png" height="100" wight="100">
 </div>
