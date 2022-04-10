@@ -54,11 +54,13 @@ export default defineThemeConfig({
   editLink: false,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
-  encrypt: {
-    config: {
-      "/stock/basic-knowledge": ["1234"],
-    },
-  },
+
+  // 加密文档
+  // encrypt: {
+  //   config: {
+  //     "/stock/basic-knowledge": ["1234"],
+  //   },
+  // },
 
   plugins: {
     blog: {
