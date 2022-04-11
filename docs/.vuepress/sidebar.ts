@@ -7,7 +7,7 @@ export default defineSidebarConfig({
     {
       text: "基础知识",
       icon: "creative",
-      collapsable: true,
+      collapsable: false,
       children: ["k-line"],
     }
   ],
@@ -16,7 +16,7 @@ export default defineSidebarConfig({
   '/note/front-end/': [
     {
       text: '前端技术',
-      collapsable: true,
+      collapsable: false,
       children: [
         'deploy-vuepress-from-github-to-ecs',
         'vue-ba-baidutongji',
@@ -26,7 +26,7 @@ export default defineSidebarConfig({
   '/note/back-end/': [
     {
       text: '后端技术',
-      collapsable: true,
+      collapsable: false,
       children: [
 
       ]
@@ -35,7 +35,7 @@ export default defineSidebarConfig({
   '/note/algorithm/': [
     {
       text: '算法技术',
-      collapsable: true,
+      collapsable: false,
       children: [
         "embedding",
       ]
@@ -44,7 +44,7 @@ export default defineSidebarConfig({
   '/note/crawler/': [
     {
       text: '爬虫技术',
-      collapsable: true,
+      collapsable: false,
       children: [
         'image-baidu-crawler',
         'book-crawler',
@@ -54,7 +54,7 @@ export default defineSidebarConfig({
   '/note/data/': [
     {
       text: '数据查询',
-      collapsable: true,
+      collapsable: false,
       children: [
         'list-map-sql-hive',
         'url-parse-sql-hive',
@@ -64,7 +64,7 @@ export default defineSidebarConfig({
   '/note/tool/': [
     {
       text: "常用工具",
-      collapsable: true,
+      collapsable: false,
       children: ["docker-for-nginx"],
     }
   ],
