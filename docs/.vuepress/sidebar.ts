@@ -23,12 +23,13 @@ export default defineSidebarConfig({
       ]
     },
   ],
+  // 后端技术
   '/note/back-end/': [
     {
       text: '后端技术',
       collapsable: false,
       children: [
-
+        'elasticsearch/nested-query-and-or'
       ]
     },
   ],

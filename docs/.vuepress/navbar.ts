@@ -12,11 +12,11 @@ export default defineNavbarConfig([
         icon: "diagram",
         link: "/front-end/"
       },
-      // {
-      //   text: "后端技术",
-      //   icon: "customize",
-      //   link: "/back-end/"
-      // },
+      {
+        text: "后端技术",
+        icon: "customize",
+        link: "/back-end/"
+      },
       {
         text: "数据查询",
         icon: "mysql",
