@@ -66,7 +66,7 @@ export default defineSidebarConfig({
     {
       text: "常用工具",
       collapsable: false,
-      children: ["docker-for-nginx"],
+      children: ["docker-for-nginx","docker-for-mongo"],
     }
   ],
 });
