@@ -1,11 +1,12 @@
 ---
 title: docker 中使用 nginx
 editLink: false
-category: nginx
+category: docker
 tag:
   - nginx
   - docker
 ---
+
 [docker hub中的nginx镜像](https://hub.docker.com/_/nginx)
 
 仓库中nginx的安装目录：

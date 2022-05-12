@@ -1,7 +1,7 @@
 ---
 title: docker 中使用 mysql
 editLink: false
-category: mysql
+category: docker
 tag:
   - mysql
   - docker

@@ -69,7 +69,8 @@ export default defineSidebarConfig({
       children: [
         "docker-for-nginx",
         "docker-for-mongo",
-        "docker-for-mysql"
+        "docker-for-mysql",
+        "docker-for-kafka"
       ],
     }
   ],

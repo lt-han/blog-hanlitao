@@ -1,7 +1,7 @@
 ---
 title: docker 中使用 mongodb
 editLink: false
-category: mongodb
+category: docker
 tag:
   - mongodb
   - docker
