@@ -22,7 +22,9 @@ docker run  -p 27017:27017 --name mongo-server -v /data/docker/mongodb:/data/db
 ```
 
 -p: 端口号
+
 --name: 容器别名
+
 -v: 文件挂载。冒号左边为本地路径，冒号右边为docker内部路径
 
 ### 3. 进入容器查看
