@@ -25,7 +25,7 @@ docker pull wurstmeister/kafka
 ``` shell
 docker run -p 2181:2181 --name zookeeper -d wurstmeister/zookeeper
 
-docker run -p 9092:9092 --name kafka --link zookeeper -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_HOST_NAME=localhost -e KAFKA_ADVERTISED_PORT=9092 -d wurstmeister/kafka
+docker run -p 9092:9092 --name kafka --link zookeeper -e KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181 -e KAFKA_ADVERTISED_HOST_NAME=localhost -e KAFKA_ADVERTISED_PORT=9092 -e KAFKA_LISTENERS=PLAINTEXT://0.0.0.0:9092 -e ALLOW_PLAINTEXT_LISTENER=yes -d wurstmeister/kafka
 ```
 
 -p: 端口号
@@ -37,6 +37,9 @@ docker run -p 9092:9092 --name kafka --link zookeeper -e KAFKA_ZOOKEEPER_CONNECT
 -e: KAFKA_ADVERTISED_HOST_NAME=localhost 设置docker宿主主机ip为localhost
 
 -e: KAFKA_ADVERTISED_PORT=9092 设置docker宿主主机端口号为9092
+-e KAFKA_LISTENERS=PLAINTEXT://0.0.0.0:9092
+-e KAFKA_ADVERTISED_LISTENERS: LISTENER_INTERNAL://kafka:9092,LISTENER_EXTERNAL://localhost:9090
+-e ALLOW_PLAINTEXT_LISTENER=yes
 
 -d: 后台运行
 

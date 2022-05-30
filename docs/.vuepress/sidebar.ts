@@ -70,7 +70,8 @@ export default defineSidebarConfig({
         "docker-for-nginx",
         "docker-for-mongo",
         "docker-for-mysql",
-        "docker-for-kafka"
+        "docker-for-kafka",
+        "docker-for-canal-from-mysql-to-kafka"
       ],
     }
   ],
