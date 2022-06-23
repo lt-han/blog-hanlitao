@@ -67,6 +67,7 @@ export default defineSidebarConfig({
       text: "常用工具",
       collapsable: false,
       children: [
+        "docker-in-centos",
         "docker-for-nginx",
         "docker-for-mongo",
         "docker-for-mysql",
