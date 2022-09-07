@@ -18,7 +18,8 @@ docker pull mongo
 ### 2. 启动mongo镜像
 
 ``` shell
-docker run  -p 27017:27017 --name mongo-server -v /data/docker/mongodb:/data/db -d mongo
+docker volume create --name = mongodata
+docker run  -p 27017:27017 --name mongo-server -v mongodata:/data/db -d mongo
 ```
 
 -p: 端口号
