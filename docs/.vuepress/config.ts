@@ -32,8 +32,8 @@ export default defineHopeConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "Han Li Tao",
-      description: "我的笔记，为效率而生 ！",
+      title: "小妖",
+      description: "在山谷和山巅之间起伏 ！",
     },
   },
 

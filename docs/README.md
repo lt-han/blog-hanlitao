@@ -2,10 +2,10 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
+title: 小妖的主页
 heroImage: /logo.png
-heroText: Han Li Tao
-tagline: 我的笔记，为效率而生 ！
+heroText: 浪浪山的小妖怪
+tagline: 在山谷和山巅间起伏 ！
 bgImage: /bg-image.gif
 heroFullScreen: true
 copyright: false
