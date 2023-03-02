@@ -7,8 +7,8 @@ export default defineSidebarConfig({
     {
       text: "基础知识",
       icon: "creative",
-      collapsable: true,
-      children: ["k-line"],
+      collapsable: false,
+      children: ["trading-rule","k-line"],
     }
   ],
     // 教你炒股-技术指标
