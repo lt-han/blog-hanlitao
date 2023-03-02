@@ -33,7 +33,7 @@ export default defineHopeConfig({
     "/": {
       lang: "zh-CN",
       title: "小妖",
-      description: "在山谷和山巅之间起伏 ！",
+      description: "在山谷和山巅间起伏 ！",
     },
   },
 
