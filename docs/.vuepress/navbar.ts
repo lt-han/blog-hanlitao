@@ -16,5 +16,10 @@ export default defineNavbarConfig([
         link: "/indicator/"
       }
     ]
+  },
+  {
+    text: "律师工具",
+    icon: "config",
+    link: "/lowyer/README.md"
   }
 ]);
