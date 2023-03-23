@@ -39,5 +39,13 @@ sudo yum install docker-ce docker-ce-cli containerd.io
 ``` shell
 sudo systemctl start docker
 ```
+### 6. 设置开机启动
+``` shell
+# 查看是否设置开机启动
+systemctl list-unit-files | grep docker
+
+# 设置开机启动
+systemctl enable docker
+```
 
 [参考文档](https://www.runoob.com/docker/centos-docker-install.html)
