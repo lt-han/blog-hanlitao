@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-title: 小妖的主页
+title: 浪山妖的主页
 heroImage: /logo.png
 heroText: 浪浪山的小妖怪
 tagline: 在山谷和山巅间起伏 ！

@@ -22,7 +22,7 @@ export default defineThemeConfig({
 
   blog: {
     avatar: "/logo.png",
-    name: "小妖",
+    name: "浪浪山的小妖怪",
     roundAvatar: true,
     sidebarDisplay: "mobile",
     medias: {

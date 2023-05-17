@@ -32,7 +32,7 @@ export default defineHopeConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "小妖",
+      title: "浪浪山的小妖怪",
       description: "在山谷和山巅间起伏 ！",
     },
   },
