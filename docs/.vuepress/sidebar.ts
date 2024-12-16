@@ -2,7 +2,7 @@ import { defineSidebarConfig } from "vuepress-theme-hope";
 
 export default defineSidebarConfig({
   // 算法工程师-Person Job Fit
-  "/algorithm-engineer/person_job_fit/": [
+  "/algorithm-engineer/person-job-fit/": [
     {
       text: "Person Job Fit",
       collapsable: false,
@@ -16,9 +16,12 @@ export default defineSidebarConfig({
         collapsable: false,
         children: ["test"],
       }
-    ],
+    ]
 
-  // // 教你炒股-基础知识
+  
+});
+
+// // 教你炒股-基础知识
   // "/stock/basic-knowledge/": [
   //   {
   //     text: "基础知识",
@@ -36,4 +39,3 @@ export default defineSidebarConfig({
   //       children: ["k-line"],
   //     }
   //   ],
-});
