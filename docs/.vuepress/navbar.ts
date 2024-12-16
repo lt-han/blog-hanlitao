@@ -3,18 +3,19 @@ import { defineNavbarConfig } from "vuepress-theme-hope";
 export default defineNavbarConfig([
   "/",
   {
-    text: "教你炒股",
-    icon: "launch",
-    link: "/stock/README.md"
-  },
-  {
-    text: "律师工具",
-    icon: "config",
-    link: "/lowyer/README.md"
-  },
-  {
-    text: "程序员工具",
+    text: "算法工程师",
     icon: "debug",
-    link: "/coder/README.md"
+    link: "/algorithm_engineer/README.md"
+  },
+  {
+    text: "律师",
+    icon: "config",
+    link: "/lawyer/README.md"
+  }
+  ,
+  {
+    text: "金融分析师",
+    icon: "launch",
+    link: "/financial_analyst/README.md"
   }
 ]);

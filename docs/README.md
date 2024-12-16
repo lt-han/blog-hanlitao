@@ -2,10 +2,10 @@
 home: true
 layout: Blog
 icon: home
-title: 浪山妖的主页
+title: 韩立涛的主页
 heroImage: /logo.png
-heroText: 浪浪山的小妖怪
-tagline: 在山谷和山巅间起伏 ！
+heroText: 知行合一
+tagline: 记录所学知识，分享所思所想！
 bgImage: /bg-image.gif
 heroFullScreen: true
 copyright: false

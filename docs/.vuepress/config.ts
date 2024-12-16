@@ -32,8 +32,8 @@ export default defineHopeConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "浪浪山的小妖怪",
-      description: "在山谷和山巅间起伏 ！",
+      title: "韩立涛的主页",
+      description: "记录所学知识，分享所思所想",
     },
   },
 
