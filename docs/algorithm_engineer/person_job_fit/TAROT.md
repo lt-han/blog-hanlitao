@@ -1,3 +1,7 @@
+---
+title: TAROT论文总结
+---
+
 论文地址：https://readpaper.com/pdf-annotate/note?pdfId=4846507463729479681&noteId=2621391334548210432
 
 ### 1 模型架构：
