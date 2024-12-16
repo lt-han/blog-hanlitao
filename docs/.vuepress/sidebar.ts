@@ -6,7 +6,7 @@ export default defineSidebarConfig({
     {
       text: "Person Job Fit",
       icon: "creative",
-      collapsable: false,
+      collapsable: true,
       children: ["TAROT"],
     }
   ],
