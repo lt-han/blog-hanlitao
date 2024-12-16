@@ -1,15 +1,16 @@
 import { defineSidebarConfig } from "vuepress-theme-hope";
 
 export default defineSidebarConfig({
-  // 算法工程师-Person Job Fit
+  
+  // 算法工程师 Person Job Fit
   "/algorithm-engineer/person-job-fit/": [
     {
       text: "Person Job Fit",
       collapsable: false,
-      children: ["./tarot.md"],
+      children: ["tarot"],
     }
   ],
-    // 算法工程师-nlp
+    // 算法工程师 nlp
     "/algorithm-engineer/nlp/": [
       {
         text: "自然语言处理",
@@ -17,7 +18,8 @@ export default defineSidebarConfig({
         children: ["test"],
       }
     ],
-    // 律师
+    
+    // 律师 工具
     "/lawyer/tool/": [
       {
         text: "工具",
