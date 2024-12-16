@@ -24,7 +24,7 @@ export default defineThemeConfig({
     avatar: "/logo.png",
     name: "主页",
     roundAvatar: true,
-    sidebarDisplay: "always",
+    sidebarDisplay: "mobile",
     medias: {
       // Zhihu: "https://www.zhihu.com/people/lthan",
       // Github: "https://github.com/lt-han",
