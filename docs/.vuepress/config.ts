@@ -1,6 +1,7 @@
 import { defineHopeConfig } from "vuepress-theme-hope";
 import themeConfig from "./themeConfig";
 
+// 文档： https://vuepress-theme-hope.github.io/v2/zh/guide
 export default defineHopeConfig({
   base: "/",
 

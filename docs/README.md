@@ -2,7 +2,7 @@
 home: true
 layout: Blog
 icon: home
-title: 主页
+title: 韩立涛
 heroImage: /logo.png
 heroText: Han Li Tao
 tagline: 分享所思所想
