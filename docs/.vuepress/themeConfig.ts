@@ -22,7 +22,7 @@ export default defineThemeConfig({
 
   blog: {
     avatar: "/logo.png",
-    name: "浪浪山的小妖怪",
+    name: "韩立涛的主页",
     roundAvatar: true,
     sidebarDisplay: "mobile",
     medias: {
