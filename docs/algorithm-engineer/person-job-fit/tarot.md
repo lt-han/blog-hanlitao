@@ -1,5 +1,9 @@
 ---
 title: TAROT论文总结
+editLink: false
+category: Person Job Fit
+tag:
+  - Person Job Fit
 ---
 
 [论文地址](https://readpaper.com/pdf-annotate/note?pdfId=4846507463729479681&noteId=2621391334548210432)
