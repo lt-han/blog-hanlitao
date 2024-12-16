@@ -2,21 +2,19 @@ import { defineSidebarConfig } from "vuepress-theme-hope";
 
 export default defineSidebarConfig({
   // 算法工程师-Person Job Fit
-  "/algorithm_engineer/person_job_fit/": [
+  "/algorithm-engineer/person_job_fit/": [
     {
       text: "Person Job Fit",
-      icon: "creative",
       collapsable: false,
-      children: ["TAROT"],
+      children: ["tarot"],
     }
   ],
     // 算法工程师-nlp
-    "/algorithm_engineer/nlp/": [
+    "/algorithm-engineer/nlp/": [
       {
         text: "自然语言处理",
-        icon: "creative",
         collapsable: false,
-        children: ["测试"],
+        children: ["test"],
       }
     ],
 

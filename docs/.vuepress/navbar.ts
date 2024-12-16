@@ -5,7 +5,7 @@ export default defineNavbarConfig([
   {
     text: "算法工程师",
     icon: "debug",
-    link: "/algorithm_engineer/README.md"
+    link: "/algorithm-engineer/README.md"
   },
   {
     text: "律师",
@@ -16,6 +16,6 @@ export default defineNavbarConfig([
   {
     text: "金融分析师",
     icon: "launch",
-    link: "/financial_analyst/README.md"
+    link: "/financial-analyst/README.md"
   }
 ]);
