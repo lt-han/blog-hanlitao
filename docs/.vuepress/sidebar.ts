@@ -7,6 +7,7 @@ export default defineSidebarConfig({
       text: "Person Job Fit",
       icon: "creative",
       collapsable: false,
+      children: ["TAROT"],
     }
   ],
     // 算法工程师-nlp
