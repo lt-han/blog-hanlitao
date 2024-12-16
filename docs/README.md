@@ -2,10 +2,10 @@
 home: true
 layout: Blog
 icon: home
-title: 韩立涛的主页
+title: 主页
 heroImage: /logo.png
-heroText: 知行合一
-tagline: 记录所学知识，分享所思所想！
+heroText: Han Li Tao
+tagline: 分享所思所想
 bgImage: /bg-image.gif
 heroFullScreen: true
 copyright: false

@@ -32,7 +32,7 @@ export default defineHopeConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "韩立涛的主页",
+      title: "主页",
       description: "分享所思所想",
     },
   },
