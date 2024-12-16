@@ -6,16 +6,17 @@ export default defineSidebarConfig({
     {
       text: "Person Job Fit",
       icon: "creative",
-      collapsable: true,
+      collapsable: false,
       children: ["TAROT"],
     }
   ],
     // 算法工程师-nlp
     "/algorithm_engineer/nlp/": [
       {
-        text: "nlp",
+        text: "自然语言处理",
         icon: "creative",
-        collapsable: true,
+        collapsable: false,
+        children: ["测试"],
       }
     ],
 
